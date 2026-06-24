@@ -19,10 +19,11 @@
 //
 
 
-#include "OneWire.h"
+//#include "OneWire.h"
+#include <OneWireNg_CurrentPlatform.h> // Подключаем обертку
 
 
-#define DS18B20_LIB_VERSION     (F("0.2.7"))
+#define DS18B20_LIB_VERSION     (F("0.2.7.1"))
 
 
 //  adjust if you need values outside guaranteed range
